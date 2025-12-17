@@ -207,22 +207,7 @@ const Payment = () => {
               )}
             </div>
 
-            {/* course card */}
-            <div className="px-6 md:px-10 pb-10">
-              <div className="rounded-lg shadow-[0_4px_6px_-2px_rgba(16,24,40,0.03),0_12px_16px_-4px_rgba(16,24,40,0.08)] overflow-hidden border border-gray-100">
-                <div className="h-48 md:h-60 bg-cover bg-center" style={{ backgroundImage: `url(${course.teacherPicture})` }} />
-                <div className="p-5 flex flex-col gap-3 text-right">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#1A906B] text-sm font-semibold">{course.category}</span>
-                    <span className="text-[#101828] text-lg font-bold">{course.price} DA </span>
-                  </div>
-                  <h2 className="text-[#101828] text-xl font-bold">{course.title}</h2>
-                  {course.subtitle && (
-                    <p className="text-[#667085] text-sm">{course.subtitle}</p>
-                  )}
-                </div>
-              </div>
-            </div>
+          
 
             {/* Confirm button */}
             <div className="flex justify-center pb-10">
