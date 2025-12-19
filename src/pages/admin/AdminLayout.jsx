@@ -23,7 +23,6 @@ const AdminLayout = () => {
         <aside className="w-64 min-h-[calc(100vh-56px)] bg-white border-r border-gray-200 p-4 flex flex-col">
           <h2 className="text-sm font-semibold mb-4 text-[#0E2A46] uppercase tracking-wide">Menu</h2>
           <nav className="space-y-1 flex-1">
-            <Link to="/admin" className={`block px-3 py-2 rounded ${location.pathname === '/admin' ? 'bg-[#54C5F8] text-white' : 'hover:bg-gray-100 text-[#0E2A46]'}`}>Dashboard</Link>
             <Link to="/admin/users" className={`block px-3 py-2 rounded ${isActive('/admin/users') ? 'bg-[#54C5F8] text-white' : 'hover:bg-gray-100 text-[#0E2A46]'}`}>Users</Link>
             <Link to="/admin/courses" className={`block px-3 py-2 rounded ${isActive('/admin/courses') ? 'bg-[#54C5F8] text-white' : 'hover:bg-gray-100 text-[#0E2A46]'}`}>Courses</Link>
             <Link to="/admin/chapters" className={`block px-3 py-2 rounded ${isActive('/admin/chapters') ? 'bg-[#54C5F8] text-white' : 'hover:bg-gray-100 text-[#0E2A46]'}`}>Chapters</Link>

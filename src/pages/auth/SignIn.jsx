@@ -71,7 +71,7 @@ const SignIn = () => {
       <form onSubmit={onSubmit} className="bg-white w-full max-w-md p-6 rounded shadow">
         <h1 className="text-2xl font-semibold mb-4">Sign In</h1>
         {error && <p className="text-red-600 mb-3">{error}</p>}
-        <label className="block mb-2 text-sm">Email or Username</label>
+        <label className="block mb-2 text-sm">Email </label>
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border rounded px-3 py-2 mb-4" required />
         <label className="block mb-2 text-sm">Password</label>
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full border rounded px-3 py-2 mb-4" required />

@@ -8,7 +8,7 @@ const ImageWithFallback = ({ src, alt, className, ...props }) => {
     if (!hasError) {
       setHasError(true);
     
-      setImgSrc('/images/avatar-1.png'); 
+      setImgSrc('/images/avatar-2.png'); 
     }
   };
 
